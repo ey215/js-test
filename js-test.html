@@ -19,6 +19,17 @@
         }
 
         multiply(5,5)
+
+        function capitalize(word) {
+            let firstLetter = word.slice(0,1);
+            let restOfWord = word.slice(1);
+            firstLetter = firstLetter.toUpperCase();
+            restOfWord = restOfWord.toLowerCase();
+            capitalWord = firstLetter.concat(restOfWord);
+            console.log(capitalWord);
+        }
+
+        capitalize('YoUhU')
     </script>
 </body>
 </html>
